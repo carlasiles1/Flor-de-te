@@ -36,17 +36,17 @@
   }
   
   button{
-    padding: 0.5rem 1rem; /* Relleno del botón */
-    background-color: var(--naranja); /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Mano al pasar el ratón */
+    padding: 0.5rem 1rem; 
+    background-color: var(--naranja); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
     transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background-color: var(--burdeos); /* Cambio de color al pasar el ratón */
+    background-color: var(--burdeos); 
   }
   
   /* Estilos del menú */
@@ -142,7 +142,7 @@
   }
   
   .right-section .cart::after {
-    content: '4'; /* Example for cart item count */
+    content: '4';
     position: absolute;
     top: -5px;
     right: -5px;
